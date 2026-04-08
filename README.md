@@ -1,35 +1,113 @@
-🚀 AgentOps — AI Loan Orchestration System For Tata Capital
-AgentOps is an AI-powered system that transforms traditional NBFC loan processing into a fast, intelligent, and automated workflow. Instead of rigid processes, it uses a Master Agent + Worker Agents architecture to handle the entire loan lifecycle efficiently while improving customer experience.
+# 🚀 AgentOps — AI Loan Orchestration System
 
-🧠 How It Works
-The system analyzes customer chats and documents in real time using intent detection and sentiment analysis, then dynamically assigns tasks to specialized agents:
+> Transforming traditional NBFC loan processing into a fast, intelligent, and automated workflow
 
-💬 Sales Agent → Handles negotiation
-📄 Verification Agent → OCR-based document validation + fraud detection
-📊 Underwriting Agent → Risk analysis & loan approval
-External APIs (Credit Bureau, CRM) are used for validation, and final decisions are generated instantly, with sanction documents delivered within minutes.
+---
 
-🔄 Workflow
-👤 User (Chat + Documents)
-            ↓
-🧠 Master Agent (Intent + Sentiment)
-            ↓
-🤖 Worker Agents
+## 📌 Overview
+
+AgentOps is an AI-powered loan orchestration system designed to modernize how financial institutions process loans.
+
+Instead of relying on rigid, manual workflows, AgentOps uses a **Master Agent + Worker Agents architecture** to automate and optimize the entire loan lifecycle — from customer interaction to final loan approval.
+
+---
+
+## 🧠 Key Features
+
+- ⚡ Instant Loan Processing — Approvals in minutes, not days  
+- 💬 AI Chat Understanding — Real-time intent detection & sentiment analysis  
+- 📄 Smart Document Verification — OCR-based validation with fraud detection  
+- 📊 Automated Underwriting — Risk analysis and decision-making  
+- 🤝 Dynamic Negotiation — Sales agent optimizes deal conversion  
+- 🔗 API Integrations — Credit Bureau, CRM, and external services  
+- 📧 Automated Outputs — Instant sanction PDFs delivered via email  
+
+---
+
+## 🏗️ System Architecture
+
+```
+User (Chat + Documents)
+        ↓
+ Master Agent (Intent + Sentiment Analysis)
+        ↓
+   Worker Agents
    ├── 💬 Sales Agent
    ├── 📄 Verification Agent
    └── 📊 Underwriting Agent
-            ↓
-🔗 API Calls (Credit Bureau | CRM | OCR)
-            ↓
-✅ Decision Output
-            ↓
-📄 Sanction PDF → 📧 Email
-⚡ What It Solves
-AgentOps enables:
+        ↓
+   External APIs
+ (Credit Bureau | CRM | OCR)
+        ↓
+   Decision Engine
+        ↓
+ Sanction PDF → Email
+```
 
-⚡ Faster loan approvals (minutes instead of days)
-🧾 Automated document verification
-🤝 Dynamic loan negotiation to save deals
-📊 Reduced operational cost & improved efficiency
-🎯 Outcome
-A streamlined, intelligent lending system that converts slow, manual processes into a real-time, automated decision engine for modern financial institutions.
+---
+
+## ⚙️ How It Works
+
+1. 👤 User submits chat input and documents  
+2. 🧠 Master Agent analyzes:
+   - Intent
+   - Sentiment  
+3. 🤖 Tasks are dynamically assigned to:
+   - Sales Agent → Negotiation handling  
+   - Verification Agent → Document validation & fraud detection  
+   - Underwriting Agent → Risk scoring & approval  
+4. 🔗 External APIs validate customer data  
+5. ✅ Decision is generated instantly  
+6. 📄 Sanction document is created and emailed  
+
+---
+
+## 🎯 Problem It Solves
+
+Traditional NBFC loan systems suffer from:
+- Slow approval timelines  
+- Manual document verification  
+- High operational costs  
+- Poor customer experience  
+
+---
+
+## 💡 Solution
+
+AgentOps introduces:
+- ⚡ Real-time automation  
+- 🧠 Intelligent decision-making  
+- 🔄 End-to-end workflow orchestration  
+- 📊 Data-driven approvals  
+
+---
+
+## 📈 Outcomes
+
+- 🚀 Faster loan approvals (minutes instead of days)  
+- 🧾 Reduced manual intervention  
+- 🤝 Higher loan conversion rates  
+- 💰 Lower operational costs  
+- 🎯 Enhanced customer experience  
+
+---
+
+## 🛠️ Tech Stack
+
+- Backend: Node.js / Express  
+- AI/ML: NLP, OCR, Sentiment Analysis  
+- Database: MongoDB  
+- APIs: Credit Bureau, CRM Integrations  
+- Architecture: Multi-Agent System  
+
+---
+
+## 🔮 Future Enhancements
+
+- 📱 Mobile-first customer onboarding  
+- 🧠 Advanced AI risk scoring models  
+- 🌍 Multi-language support  
+- 🔐 Enhanced fraud detection using ML  
+- 📊 Analytics dashboard for lenders  
+
+---
